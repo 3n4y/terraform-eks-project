@@ -1,8 +1,8 @@
 ## Overview
 This sets up a single node EKS cluster and deploys a highly available app using terraform.
 
-- This is set up in the public subnet and open to reduce cost and allow for ease of implementation
-- 
+- This is set up in the public subnet to reduce cost and allow for ease of implementation
+- This incoporates a bastion host that is used to ssh into the worker nodes. 
 # prerequisite
 - aws profile configured
 
